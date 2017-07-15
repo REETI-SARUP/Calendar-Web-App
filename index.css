@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30%;
+	margin-right: 30%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: 26%;
+  	margin-bottom: 4%;
+  	margin-top: 30px;
+  	font-family: Georgia, Times, serif;
+}
+
+th {
+	background-color: navy;
+	text-align: center;
+	font-size: 22px;
+	height: 62px;
+  	color: white;
+  	border-bottom: 14px solid white;
+}
+
+td {
+	text-align: center;
+	height: 100px;
+  	width: 100px;
+  	padding: 10px;
+    color: brown;
+  	font-weight: bold;
+  	font-size: 30px;
+}
+
+tr:nth-child(even) td { 
+	background-color: #ffe6e8;
+	color: indigo; 
+}   
+
+button {
+	font-size: 25px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 17px;
+	padding-left: 17px;
+	border-radius: 28%;
+	background-color: firebrick;
+	color: white;
+}
+
+#goToToday {
+	background-color: white;
+	color: navy;
+	font-size: 22px;
+	margin-left: 35%;
+	border: 3px solid navy;
+	border-radius: 0px;
+	box-shadow: 2px 2px 0px 0px;
+}
+
+button:hover {
+	box-shadow: inset 3px 3px 10px 0px;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+#monthAndYear {
+  font-size: 31px;
+  font-weight: bold;
+  color: navy;
+  font-family: Georgia, Times, serif;
+}
+
+#prevM, #nextY {
+	margin-left: 15px;
+}
