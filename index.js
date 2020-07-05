@@ -35,7 +35,9 @@ function display(month, year) {
 				cellvalue[(r*6)+s].style['border']='1px solid navy';
 			}
 			else if(month!=d.getMonth()) {
+				cellvalue[(r*6)+s].style['background-color'] = '';
 				cellvalue[(r*6)+s].style['color']='lightgrey';
+				cellvalue[(r*6)+s].style['border'] = '';
 			}
 			else {
 				cellvalue[(r*6)+s].style['background-color'] = '';
